@@ -1,0 +1,3 @@
+[{:name logseq/cljs-time
+  :namespaces [cljs-time.core cljs-time.coerce cljs-time.format]
+  :js "./nbb_cljs_time.js"}]
