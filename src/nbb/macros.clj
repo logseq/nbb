@@ -33,6 +33,7 @@
                (into '{promesa.core "./nbb_promesa.js"
                        applied-science.js-interop "./nbb_js_interop.js"
                        cljs-bean.core "./nbb_cljs_bean.js"
+                       cljs-bean.transit "./nbb_cljs_bean.js"
                        cljs.pprint "./nbb_pprint.js"
                        clojure.pprint "./nbb_pprint.js"
                        cljs.test "./nbb_test.js"
