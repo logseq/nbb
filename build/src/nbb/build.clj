@@ -42,7 +42,9 @@
              (map (fn [m] (format " --config-merge '%s'" (pr-str (:shadow-config m))))
                   (into feature-configs
                         [{:shadow-config {:compiler-options {:source-map true}}}])))
-      cmd')))
+      (apply str cmd'
+             (map (fn [m] (format " --config-merge '%s'" (pr-str (:shadow-config m))))
+                  [{:shadow-config {:compiler-options {:source-map true}}}])))))
 
 (defn build
   "Build nbb shadow builds using clojure cmd and commandline args. Features on
