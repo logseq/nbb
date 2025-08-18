@@ -14,8 +14,8 @@
         cljs-bean/cljs-bean {:mvn/version "1.9.0"}
         org.babashka/sci
         #_{:local/root "../babashka/sci"}
-        #_{:mvn/version "0.9.44"}
-        {:git/url "https://github.com/babashka/sci"
+        {:mvn/version "0.10.46"}
+        #_{:git/url "https://github.com/babashka/sci"
          :git/sha "56104c81cb7a3804f8ee84aa64b313dc7143f30e"}
         org.clojure/tools.cli {:mvn/version "1.0.214"}
         com.cognitect/transit-cljs {:mvn/version "0.8.280"}
